@@ -1,5 +1,5 @@
 body {
-  font-family: 'Signika', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .navbar {
@@ -8,6 +8,14 @@ body {
 
 .row {
   padding: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #1abc9c;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #ffff;
 }
 
 .navbar-brand {
@@ -103,4 +111,13 @@ body {
   background: none;
   border: 1px solid #ffff;
   margin: auto;
+  padding: 16px 28px;
+}
+
+.download:hover {
+  background: #ffff;
+}
+
+.fa-cloud-download-alt {
+  margin-right: 5px;
 }
