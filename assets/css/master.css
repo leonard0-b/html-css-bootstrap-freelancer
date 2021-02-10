@@ -85,3 +85,11 @@ body {
 .star.black:after {
   background-color: #333333;
 }
+
+.card {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
