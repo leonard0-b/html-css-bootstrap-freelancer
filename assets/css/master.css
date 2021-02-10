@@ -28,12 +28,16 @@ body {
   text-transform: uppercase;
 }
 
-.container-fluid {
+#green {
   background-color: #1abc9c;
 }
 
-#green > h1 {
+.white {
   color: #ffff;
+}
+
+.black {
+  color: #333333;
 }
 
 .avatar {
@@ -53,7 +57,6 @@ body {
 
 .fa-star {
   font-size: 30px;
-  color: white;
 }
 
 .star {
@@ -61,6 +64,11 @@ body {
   min-width: 100%;
   margin: 14px auto;
 }
+
+.portfolio {
+  margin-top: 20px;
+}
+
 .star:before,
 .star:after {
   content: '';
@@ -71,4 +79,9 @@ body {
   line-height: 4px;
   vertical-align: middle;
   background-color: white;
+}
+
+.star.black:before,
+.star.black:after {
+  background-color: #333333;
 }
