@@ -1,3 +1,15 @@
+body {
+  font-family: 'Signika', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.row {
+  padding: 5px;
+}
+
 .navbar-brand {
   border: none;
 }
@@ -14,4 +26,49 @@
 .navbar-default .navbar-brand {
   color: #ffff;
   text-transform: uppercase;
+}
+
+.container-fluid {
+  background-color: #1abc9c;
+}
+
+#green > h1 {
+  color: #ffff;
+}
+
+.avatar {
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.fa-star {
+  font-size: 30px;
+  color: white;
+}
+
+.star {
+  max-width: 400px;
+  min-width: 100%;
+  margin: 14px auto;
+}
+.star:before,
+.star:after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius: 2px;
+  line-height: 4px;
+  vertical-align: middle;
+  background-color: white;
 }
