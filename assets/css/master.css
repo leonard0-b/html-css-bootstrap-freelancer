@@ -26,6 +26,10 @@ p {
   background-color: #1abc9c;
 }
 
+.fa-bars:before {
+  margin-left: 5px;
+}
+
 .navbar-brand {
   border: none;
 }
