@@ -2,6 +2,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+p {
+  font-size: 20px;
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -54,6 +58,10 @@ body {
 
 .black {
   color: #333333;
+}
+
+.darkblue_t {
+  color: #2c3e50;
 }
 
 .blue {
@@ -137,7 +145,7 @@ body {
 
 .devider.black:before,
 .devider.black:after {
-  background-color: #333333;
+  background-color: #2c3e50;
 }
 
 .card {
@@ -150,9 +158,28 @@ body {
   border-radius: 10px;
 }
 
+.content {
+  transition: background 1s;
+}
+
 .content:hover {
   background: #1abc9c;
-  height: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-height: 512.766px;
+}
+
+.content:hover img {
+  visibility: hidden;
+}
+
+.content .fa-plus {
+  visibility: hidden;
+}
+
+.content:hover .fa-plus {
+  visibility: visible;
 }
 
 .fa-plus {
@@ -170,6 +197,7 @@ body {
 
 .download {
   color: #ffff;
+  font-size: 20px;
   background: none;
   border: 1px solid #ffff;
   margin: auto;
@@ -194,11 +222,14 @@ body {
 }
 .form-group > label {
   margin-bottom: 10px;
+  font-size: 20px;
+  color: #2c3e50;
 }
 
 .send {
   background-color: #1abc9c;
   color: #ffff;
+  font-size: 20px;
 }
 
 .fa-twitter, .fa-linkedin-in {
@@ -223,4 +254,24 @@ body {
   border-radius: 50%;
   margin-right: 10px;
   border: 1px solid #ffff;
+}
+
+@media all and (min-width: 992px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
 }
