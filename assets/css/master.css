@@ -61,7 +61,7 @@ body {
 }
 
 .avatar {
-  height: 300px;
+  height: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -76,7 +76,7 @@ body {
 }
 
 .fa-star {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .star {
@@ -93,20 +93,38 @@ body {
   margin-bottom: 50px;
 }
 
-.star:before,
-.star:after {
+.devider {
+  width: 310px;
+  margin: 0 auto;
+}
+
+.devider i {
+  font-size: 32px;
+}
+
+.devider:before,
+.devider:after {
   content: '';
-  display: inline-block;
-  width: 15%;
-  height: 4px;
+  display: block;
+  width: 40%;
+  height: 5px;
+  margin-top: 12px;
   border-radius: 2px;
   line-height: 4px;
   vertical-align: middle;
-  background-color: white;
+  background-color: #fff;
 }
 
-.star.black:before,
-.star.black:after {
+.devider:before {
+  float: left;
+}
+
+.devider:after {
+  float: right;
+}
+
+.devider.black:before,
+.devider.black:after {
   background-color: #333333;
 }
 
