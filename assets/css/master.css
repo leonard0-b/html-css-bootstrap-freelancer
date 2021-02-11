@@ -18,6 +18,10 @@ body {
   color: #ffff;
 }
 
+.navbar-default .navbar-toggle {
+  background-color: #1abc9c;
+}
+
 .navbar-brand {
   border: none;
 }
@@ -89,8 +93,16 @@ body {
   margin-top: 50px;
 }
 
+.margin-top-15 {
+  margin-top: 15px;
+}
+
 .margin-bottom {
   margin-bottom: 50px;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15px;
 }
 
 .devider {
@@ -135,6 +147,7 @@ body {
   margin-right: auto;
   margin-bottom: 20px;
   position: relative;
+  border-radius: 10px;
 }
 
 .content:hover {
