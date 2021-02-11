@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -38,6 +38,7 @@
         </div><!-- /.container-fluid -->
       </nav>
     </header>
+    <main>
       <div class="container-fluid green">
         <div class="container">
           <div class="row">
@@ -78,22 +79,30 @@
         </div>
         <div class="row">
           <div class="col-xs-12 col-md-6 col-lg-4">
-            <img class="card" src="./assets/img/cabin.png" alt="baita in legno">
+            <div class="content">
+              <img class="card" src="./assets/img/cabin.png" alt="baita in legno">
+              <i class="fas fa-plus white text-align-center"></i>
+            </div>
           </div>
           <div class="col-xs-12 col-md-6 col-lg-4">
             <img class="card" src="./assets/img/cake.png" alt="fetta di torta">
+            <i class="fas fa-plus white text-align-center"></i>
           </div>
           <div class="col-xs-12 col-md-6 col-lg-4">
             <img class="card" src="./assets/img/circus.png" alt="tendone del circo">
+            <i class="fas fa-plus white text-align-center"></i>
           </div>
           <div class="col-xs-12 col-md-6 col-lg-4">
             <img class="card" src="./assets/img/game.png" alt="joistick videogioco">
+            <i class="fas fa-plus white text-align-center"></i>
           </div>
           <div class="col-xs-12 col-md-6 col-lg-4">
             <img class="card" src="./assets/img/safe.png" alt="cassaforte">
+            <i class="fas fa-plus white text-align-center"></i>
           </div>
           <div class="col-xs-12 col-md-6 col-lg-4">
             <img class="card" src="./assets/img/submarine.png" alt="sottomarino">
+            <i class="fas fa-plus white text-align-center"></i>
           </div>
         </div>
       </div>
@@ -127,7 +136,47 @@
           </div>
         </div>
       </div>
-
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 uppercase text-align-center">
+            <h1>contact me</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="star text-align-center black">
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <form>
+              <div class="form-group">
+                <label for="usr">Name</label>
+                <input type="text" class="form-control" id="usr">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Email Address</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Phone Number</label>
+                <input type="password" class="form-control" id="phone">
+              </div>
+              <div class="form-group">
+                <label for="comment">Message</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+              <button type="button" class="send btn btn-outline-primary">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
 
 
 
