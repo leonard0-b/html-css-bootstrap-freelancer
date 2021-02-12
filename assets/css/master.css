@@ -284,9 +284,10 @@ p {
 }
 
 @media all and (max-width: 340px) {
-.devider {
-  width: 200px;
-  margin: 0 auto;
+  .devider {
+    width: 200px;
+    margin: 0 auto;
+  }
 }
 
 @media all and (min-width: 341px) and (max-width: 991px) {
@@ -299,7 +300,13 @@ p {
   }
 
   .about-text {
-    padding: 15%;
+    padding: 20px 50px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .about-text {
+    padding: 0;
   }
 }
 
@@ -313,16 +320,7 @@ p {
     font-size: 48px;
   }
 
-  .about-text.left {
-    padding-left: 25%;
-  }
-
-  .about-text.right {
-    padding-right: 25%;
-  }
-
   .about-text {
-    padding: 20%;
+    padding: 5%;
   }
-
 }
